@@ -10,7 +10,7 @@ int annee;
 };
 
             
-int main(){
+int main(void){
 
 struct voiture v;
 strcpy(v.nom, "Clio5");
