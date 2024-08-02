@@ -8,16 +8,15 @@ int km;
 int annee;
 
 };
-//0000000000000000000000000000000000000000000
-            
-int main(void){
+
+int main(){
 
 struct voiture v;
-strcpy(v.nom, "        Clioaalpine");
+strcpy(v.nom, "Clio5");
 v.km=90000;
 v.annee=2017;
-printf("      votre voiture est %s.elle a %d km ; elle est de l'annee %d",v.nom,v.km,v.annee);
-///dzdsdssddsdsdsdsd
+printf("votre voiture est %s.elle a %d km ; elle est de l'annee %d",v.nom,v.km,v.annee);
+
 return 0;
 }
 
